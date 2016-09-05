@@ -1,38 +1,24 @@
-# \<gl-styles\>
+# \<gl-font\>
 
-gl-styles for 9lon
+gl-font for web components
 
-## Install the Polymer-CLI
-
-First, make sure you have the [Polymer CLI](https://www.npmjs.com/package/polymer-cli) installed. Then run `polymer serve` to serve your application locally.
-
-## Viewing Your Application
+## วิธีการใช้งานติดตั้ง
 
 ```
-$ polymer serve
+$ bower install 9lon-gl-font --save
 ```
 
-## Building Your Application
-
+## วิธีการใช้งาน
+ให้คุณแทรก gl-rsu-font ใน แทรก style ในหน้าที่คุณต้องใช้งาน
 ```
-$ polymer build
+<style is="custom-style" include="gl-rsu-font"></style>
 ```
-
-This will create a `build/` folder with `bundled/` and `unbundled/` sub-folders
-containing a bundled (Vulcanized) and unbundled builds, both run through HTML,
-CSS, and JS optimizers.
-
-You can serve the built versions by giving `polymer serve` a folder to serve
-from:
-
+ต่อมาก็แทรก css ดังตัวอย่างด้านล่างลงไปใน สไตล์ที่คุณต้องการจะเปลี่ยน 
 ```
-$ polymer serve build/bundled
+    div.ex {
+        font-family: 'rsuregular', sans-serif;
+        -webkit-font-smoothing: antialiased;
+    }
 ```
-
-## Running Tests
-
-```
-$ polymer test
-```
-
-Your application is already set up to be tested via [web-component-tester](https://github.com/Polymer/web-component-tester). Run `polymer test` to run your application's test suite locally.
+## List Font
+1 RSU font จัดทำโดยมหาวิทยาลัยรังสิต http://www2.rsu.ac.th/info/downloads-logo

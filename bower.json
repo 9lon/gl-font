@@ -1,10 +1,10 @@
 {
-    "name": "gl-rsu-font",
-    "description": "gl-rsu-font for 9lon",
+    "name": "gl-font",
+    "description": "gl-font for web components",
+    "version": "0.0.2",
     "main": "gl-rsu-font.html",
     "dependencies": {
-        "polymer": "Polymer/polymer#^1.4.0",
-        "paper-styles": "PolymerElements/paper-styles#^1.1.4"
+        "polymer": "Polymer/polymer#^1.4.0"
     },
     "devDependencies": {
         "iron-component-page": "PolymerElements/iron-component-page#^1.0.0",
