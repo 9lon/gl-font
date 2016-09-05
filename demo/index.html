@@ -1,0 +1,79 @@
+<!doctype html>
+<html>
+
+<head>
+    <title>gl-rsu-font for 9lon คุณลักษณะพื้นฐานสำหรับ 9lon</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, minimum-scale=1.0, initial-scale=1, user-scalable=yes">
+    <script src="../bower_components/webcomponentsjs/webcomponents-lite.js"></script>
+
+    <link rel="import" href="../bower_components/iron-demo-helpers/demo-pages-shared-styles.html">
+    <link rel="import" href="../bower_components/iron-demo-helpers/demo-snippet.html">
+
+    <link rel="import" href="../gl-rsu-font.html">
+
+    <style is="custom-style" include="demo-pages-shared-styles gl-rsu-font">
+
+    </style>
+    <style>
+        * {
+            font-family: 'rsuregular', sans-serif;
+            -webkit-font-smoothing: antialiased;
+        }
+        
+        .title {
+            font-size: 22px;
+            font-weight: bold;
+            margin-bottom: 10px;
+            margin-top: 10px;
+        }
+        
+        .content {
+            margin-top: 10px;
+            font-size: 18px;
+        }
+    </style>
+
+</head>
+
+<body>
+
+    <div class="vertical-section-container centered">
+        <h3>Basic gl-styles Demo</h3>
+        <demo-snippet>
+
+            <div class="title">How to use.</div>
+            <div class="content">
+                <ol>
+                    <li>You want to include 'gl-styles' into tag style css you file. </li>
+                    <li>You write css font-family into tag you want.</li>
+                </ol>
+            </div>
+            <div class="title">วิธีใช้งาน</div>
+
+            <div class="content">
+                <ol>
+                    <li>คุณต้องแทรกสไตล์ 'gl-styles' ลงในแทรก style ของไฟล์ที่คุณต้องการ </li>
+                    <li>เรียกใช้ css font-family ลงในแท็กที่คุณต้องการใช้งาน</li>
+                </ol>
+            </div>
+            <div class="title">Exsample Code</div>
+
+            <div class="content">
+                <code>
+                div.ex {
+                    font-family: 'rsuregular', sans-serif; <br>
+                     -webkit-font-smoothing: antialiased;
+                }
+             </code>
+            </div>
+
+            <template>
+                <style is="custom-style" include="gl-styles"></style>
+            </template>
+        </demo-snippet>
+    </div>
+
+</body>
+
+</html>

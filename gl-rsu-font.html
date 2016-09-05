@@ -1,0 +1,37 @@
+<link rel="import" href="bower_components/polymer/polymer.html">
+<link rel="import" href="bower_components/paper-styles/color.html">
+
+<!--
+`gl-rsu-font`
+gl-rsu-font for 9lon
+
+@demo demo/index.html 
+-->
+<dom-module id="gl-rsu-font">
+    <template>
+    <style>
+     @font-face {
+          font-family: 'rsubold';
+          src: url('fonts/rsu_bold-webfont.woff2') format('woff2'),
+              url('fonts/rsu_bold-webfont.woff') format('woff');
+          font-weight: normal;
+          font-style: normal;
+      }
+      @font-face {
+          font-family: 'rsuregular';
+          src: url('fonts/rsu_regular-webfont.woff2') format('woff2'),
+              url('fonts/rsu_regular-webfont.woff') format('woff');
+          font-weight: normal;
+          font-style: normal;
+      }
+       
+    </style>
+  </template>
+    <script>
+        Polymer({
+
+            is: 'gl-rsu-font',
+
+        });
+    </script>
+</dom-module>
