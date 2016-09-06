@@ -9,14 +9,18 @@ $ bower install 9lon-gl-font --save
 ```
 
 ## วิธีการใช้งาน
-ให้คุณแทรก gl-rsu-font ใน แทรก style ในหน้าที่คุณต้องใช้งาน
+
 ```
-<style is="custom-style" include="gl-rsu-font"></style>
+<link rel="import" href="bower_components/gl-font/gl-rsu-font.html">
 ```
 ต่อมาก็แทรก css ดังตัวอย่างด้านล่างลงไปใน สไตล์ที่คุณต้องการจะเปลี่ยน 
 ```
     div.ex {
         font-family: 'rsuregular', sans-serif;
+        -webkit-font-smoothing: antialiased;
+    }
+    div.ex2 {
+        font-family: 'rsubold', sans-serif;
         -webkit-font-smoothing: antialiased;
     }
 ```
