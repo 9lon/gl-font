@@ -12,6 +12,7 @@ $ bower install 9lon-gl-font --save
 
 ```
 <link rel="import" href="bower_components/gl-font/gl-rsu-font.html">
+<link rel="import" href="bower_components/gl-font/gl-cschatthai-font.html">
 ```
 ต่อมาก็แทรก css ดังตัวอย่างด้านล่างลงไปใน สไตล์ที่คุณต้องการจะเปลี่ยน 
 ```
@@ -20,9 +21,10 @@ $ bower install 9lon-gl-font --save
         -webkit-font-smoothing: antialiased;
     }
     div.ex2 {
-        font-family: 'rsubold', sans-serif;
+        font-family: 'CSChatThaiUI', sans-serif;
         -webkit-font-smoothing: antialiased;
     }
 ```
 ## List Font
 1 RSU font จัดทำโดยมหาวิทยาลัยรังสิต http://www2.rsu.ac.th/info/downloads-logo
+2 CS ChatThai (ชาติไท) font ติดต่อผู้สร้างสรรค์: raveetavan@gmail.com
