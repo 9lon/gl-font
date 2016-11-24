@@ -1,7 +1,7 @@
 {
     "name": "gl-font",
     "description": "gl-font for web components",
-    "version": "0.0.5",
+    "version": "0.0.7",
     "main": "gl-rsu-font.html",
     "dependencies": {
         "polymer": "Polymer/polymer#^1.4.0"
