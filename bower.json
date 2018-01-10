@@ -1,10 +1,10 @@
 {
     "name": "gl-font",
     "description": "gl-font for web components",
-    "version": "0.0.5",
+    "version": "0.0.8",
     "main": "gl-rsu-font.html",
     "dependencies": {
-        "polymer": "Polymer/polymer#^1.4.0"
+        "polymer": "Polymer/polymer#^1.7.0"
     },
     "devDependencies": {
         "iron-component-page": "PolymerElements/iron-component-page#^1.0.0",
